@@ -9,8 +9,6 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v1
-      - name: arm64 support
-        uses: pguyot/arm-runner-action@v2
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v1
         with:
